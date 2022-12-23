@@ -3,6 +3,8 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom'
 import ContactPage from './pages/ContactPage';
+import AboutMe from './components/AboutMe';
+import Projects from './pages/Projects';
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<ContactPage />} />
+          <Route path='/about' element={<AboutMe />} />
+          <Route path='/projects' element={<Projects />} />
         </Routes>
       </main>
       <Footer />
