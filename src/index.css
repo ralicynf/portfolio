@@ -39,6 +39,7 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .flex-column {
@@ -77,4 +78,8 @@ a:active {
 
 #nav-logo-photo {
   max-width: 40px;
+}
+
+#nav-name {
+  font-size:xx-large
 }
