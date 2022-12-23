@@ -1,5 +1,6 @@
 import Headline from "../components/Headline"
 import AboutMe from "../components/AboutMe"
+import Projects from "./Projects"
 
 const Home = () => {
 
@@ -11,7 +12,9 @@ const Home = () => {
             <div>
                 <AboutMe />
             </div>
-            
+            <div>
+                <Projects />
+            </div>
 
         </div>
     )
