@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ralicyn.github.io/static/css/main.db7175d4.css",
-    "main.js": "/ralicyn.github.io/static/js/main.d24fc2ba.js",
+    "main.css": "/ralicyn.github.io/static/css/main.229033e7.css",
+    "main.js": "/ralicyn.github.io/static/js/main.e18abaed.js",
     "index.html": "/ralicyn.github.io/index.html",
-    "main.db7175d4.css.map": "/ralicyn.github.io/static/css/main.db7175d4.css.map",
-    "main.d24fc2ba.js.map": "/ralicyn.github.io/static/js/main.d24fc2ba.js.map"
+    "main.229033e7.css.map": "/ralicyn.github.io/static/css/main.229033e7.css.map",
+    "main.e18abaed.js.map": "/ralicyn.github.io/static/js/main.e18abaed.js.map"
   },
   "entrypoints": [
-    "static/css/main.db7175d4.css",
-    "static/js/main.d24fc2ba.js"
+    "static/css/main.229033e7.css",
+    "static/js/main.e18abaed.js"
   ]
 }
