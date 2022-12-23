@@ -1,11 +1,6 @@
 import { Link } from 'react-router-dom'
-import { useNavigate } from 'react-router-dom'
 
 const NavBar = () => {
-
-    let navigate = useNavigate()
-
-   
 
     return (
         <header id="header">

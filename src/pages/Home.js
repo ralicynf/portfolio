@@ -6,13 +6,13 @@ const Home = () => {
 
     return (
         <div>
-            <div>
+            <div className="box">
                 <Headline />
             </div>
-            <div>
+            <div className="box">
                 <AboutMe />
             </div>
-            <div>
+            <div className="box">
                 <Projects />
             </div>
 

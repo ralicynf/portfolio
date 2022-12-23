@@ -1,18 +1,18 @@
 const Contact = () => {
 
     return (
-        <div className='flex-row'>
-            <div>
-                <h3>
-                    Email: fulkerson.rebecca@gmail.com
-                </h3>
+       <footer id="footer">
+            <div className="nav-container flex-row contact-info">
+                <div className="flex-row contact">
+                    <h4>Email: </h4>
+                    <h4>  fulkersonrebecca@gmail.com</h4>
+                </div>
+                <div className="flex-row contact">
+                    <h4>Phone: </h4>
+                    <h4>  (803)-917-5358</h4>
+                </div>
             </div>
-            <div>
-                <h3>
-                    Phone: 803.917.5357
-                </h3>
-            </div>
-        </div>
+       </footer>
     )
 }
 
