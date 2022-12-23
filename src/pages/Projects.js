@@ -4,7 +4,7 @@ return (
     <div>
         <div className="project">
             <a href="https://languid-hand.surge.sh/" target='_blank' className="project-name" id='tic-tac-toe'>Tic Tac Toe </a>
-            <div className="flex-row">
+            <div className="flex-row align-top">
                 <div className="tech-list">
                     <h4 className="list">Technologies used:</h4>
                     <li>HTML</li>
@@ -19,18 +19,24 @@ return (
         </div>
         <br />
         <div className="project">
-            <a href="https://truthordarerf.surge.sh/" target='_blank' className="project-name">Truth or Dare </a>
-            <div>
-                <ul>Technologies used:</ul>
-                <li>HTML</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
+            <a href="https://truthordarerf.surge.sh/" target='_blank' className="project-name" id='truth-or-dare'>Truth or Dare </a>
+            <div className="flex-row align-top">
+                <div className="tech-list">
+                    <h4 className="list">Technologies used:</h4>
+                    <li>HTML</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </div>
+                <div className="project-description">
+                    <h4>Project description:</h4>
+                    <p></p>
+                </div>
             </div>
         </div>
         <br />
         <div className="project">
-            <p>Recipedia (coming soon)</p>
-            <div>
+            <h4>Recipedia (coming soon)</h4>
+            {/* <div>
                 <ul>Technologies used:</ul>
                 <li>HTML</li>
                 <li>CSS3</li>
@@ -39,7 +45,7 @@ return (
                 <li>MongoDB</li>
                 <li>Express</li>
                 <li>Node</li>
-            </div>
+            </div> */}
         </div>
 
     </div>
