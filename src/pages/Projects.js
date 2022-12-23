@@ -1,10 +1,16 @@
 const Projects = () => {
 
+
 return (
     <div>
-        <div className="project">
-            <a href="https://languid-hand.surge.sh/" target='_blank' className="project-name" id='tic-tac-toe'>Tic Tac Toe </a>
-            <div className="flex-row align-top">
+        <div className="project box">
+            <div className="flex-column">
+                <a href="https://languid-hand.surge.sh/" target='_blank' className="project-name" id='tic-tac-toe'>Tic Tac Toe </a>
+                <a href="https://languid-hand.surge.sh/" target='_blank' className="project-name" id='tic-tac-toe'>
+                    <img src="https://i.imgur.com/QpvGw0q.png" alt='Tic Tac Toe logo' className='project-pics' />
+                </a>
+            </div>
+            <div className="flex-row align-top media-col">
                 <div className="tech-list">
                     <h4 className="list">Technologies used:</h4>
                     <li>HTML</li>
@@ -18,9 +24,14 @@ return (
             </div>
         </div>
         <br />
-        <div className="project">
-            <a href="https://truthordarerf.surge.sh/" target='_blank' className="project-name" id='truth-or-dare'>Truth or Dare </a>
-            <div className="flex-row align-top">
+        <div className="project box">
+            <div className="flex-column">
+                <a href="https://truthordarerf.surge.sh/" target='_blank' className="project-name" id='truth-or-dare'>Truth or Dare </a>
+                <a href="https://truthordarerf.surge.sh/" target='_blank' className="project-name" id='truth-or-dare'>
+                    <img src="https://i.imgur.com/jwpZpz3.png" alt='Truth or Dare logo' className="project-pics" />
+                </a>
+            </div>
+            <div className="flex-row align-top media-col">
                 <div className="tech-list">
                     <h4 className="list">Technologies used:</h4>
                     <li>HTML</li>
@@ -29,12 +40,12 @@ return (
                 </div>
                 <div className="project-description">
                     <h4>Project description:</h4>
-                    <p></p>
+                    <p>After two weeks of learning to code, I created Truth or Dare, a game written in vanilla JavaScript. The inspiration for the project came from remembering back to the games I liked to play with my friends as an adolescent. Truth or Dare, Never Have I Ever, M.A.S.H. These games produced some of my favorite childhood memories and when it came time for me to create a game, I created one that I would have wanted to use. The game currently allows for up to 4 players. Player names can be input into the game and it will keep track of score based on whether a player "completes" their truth question or dare or they "forfeit" their turn, resulting in no points. The project has over 100 truth questions and over 100 dares so that the game can be enjoyed over a fun evening with friends. In this project, my focus was on creating a fun, but simple, game that was styled in a very clean and modern fashion. The CSS styling utilizes media queries in order to make the game mobile browser compatible so the game can be played anywhere on a clean user interface.</p>
                 </div>
             </div>
         </div>
         <br />
-        <div className="project">
+        <div className="project box">
             <h4>Recipedia (coming soon)</h4>
             {/* <div>
                 <ul>Technologies used:</ul>

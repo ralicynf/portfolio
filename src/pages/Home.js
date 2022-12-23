@@ -1,6 +1,7 @@
 import Headline from "../components/Headline"
 import AboutMe from "../components/AboutMe"
 import Projects from "./Projects"
+import { Link } from "react-router-dom"
 
 const Home = () => {
 
@@ -13,7 +14,7 @@ const Home = () => {
                 <AboutMe />
             </div>
             <div className="box">
-                <Projects />
+                <Link to='/projects'>View my project library!</Link>
             </div>
 
         </div>
