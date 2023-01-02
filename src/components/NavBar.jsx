@@ -10,7 +10,7 @@ const NavBar = () => {
                     <Link to='/' id='nav-name'>RF</Link>
                 </div>
                 <div className="center-column flex-row">
-                    <Link to='/'>Home</Link>
+                    <Link to='/ralicyn.github.io'>Home</Link>
                     <Link to='/contact'>Contact</Link>
                     <a href='https://www.linkedin.com/in/fulkersonrebecca/' target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a href='https://github.com/ralicynf' target="_blank" rel="noopener noreferrer">GitHub</a>
